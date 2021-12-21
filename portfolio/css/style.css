@@ -12,7 +12,9 @@ a {
   color: #1ca9e3;
 }
 
-img {
+
+
+  img {
   max-width: 100%;
   height: auto;
   vertical-align: bottom;
@@ -33,7 +35,7 @@ li {
 }
 
 /*--------------------------------
- レイアウト
+  レイアウト
 ---------------------------------*/
 .wrapper {
   padding-top: 73px;
@@ -54,7 +56,7 @@ li {
 }
 
 /*--------------------------------
- 見出し
+  見出し
 ---------------------------------*/
 .title {
   font-size: 34px;
@@ -239,7 +241,7 @@ li {
   border: 2px solid #9ec34b;
   position: relative;
   overflow: hidden;
-  z-index: 1;
+  z-index: 0;
 }
 .btn-open:after{
   width: 100%;
@@ -619,3 +621,17 @@ li {
     padding: 50px 0;
   }
 }
+
+
+
+.first{color: rgb(54, 44, 44);
+  text-decoration: none;
+  background-color: rgb(193, 219, 240);
+  transition: background-color 1s;}
+
+.first:hover{background-color: rgb(149, 182, 240);}
+
+.link{display: block;
+  text-align: center;
+width: 90px;
+border-radius: 40px;}
