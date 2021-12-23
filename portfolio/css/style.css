@@ -635,3 +635,8 @@ li {
   text-align: center;
 width: 90px;
 border-radius: 40px;}
+
+span.background{background-image:url(ensyu/img/ribon.svg);
+width: 100px;
+height: 100px;}
+.st{max-width: 50%;}
