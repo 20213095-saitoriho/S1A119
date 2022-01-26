@@ -38,7 +38,7 @@ a {
   flex-wrap: wrap;
   justify-content: space-around;
 }
-.container3 li{flex: 0 0 200;}
+.container3 li{flex: 0 0 200px;}
 /* flexboxを使った指定：各アイテムに指定した場合 */
 .container4{
   display: flex;
