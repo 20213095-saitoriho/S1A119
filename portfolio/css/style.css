@@ -414,7 +414,7 @@ li {
   padding: 10px;
   cursor: pointer;
   text-align: center;
-  background-color: #4c4c4c;
+  background-color: rgb(218, 131, 81);
 }
 
 .page-top .material-icons-outlined {
@@ -427,13 +427,13 @@ li {
 ---------------------------------*/
 .footer {
   padding: 30px;
-  background-color: #333;
+  background-color: rgb(161, 109, 67);
 }
 
 .copyright {
   font-size: 10px;
   text-align: center;
-  color: #797979;
+  color: #e4dada;
 }
 
 /*--------------------------------
@@ -633,10 +633,12 @@ li {
 
 .link{display: block;
   text-align: center;
-width: 90px;
 border-radius: 40px;}
 
-span.background{background-image:url(ensyu/img/ribon.svg);
-width: 100px;
-height: 100px;}
-.st{max-width: 50%;}
+.st{max-width: 50%;
+max-height: 300px;
+height: auto;}
+
+.pagetop{position: fixed;
+  bottom: 20px;
+  right: 20px;}
